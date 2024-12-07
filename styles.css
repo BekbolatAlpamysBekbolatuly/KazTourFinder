@@ -3,10 +3,12 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b); /* Яркий градиентный фон */
+  color: #333;
 }
 
 header {
-  background: #333;
+  background: #ff6f61; /* Яркий красно-оранжевый */
   color: #fff;
   padding: 1em 0;
   text-align: center;
@@ -29,10 +31,16 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 
 main {
   padding: 20px;
+  background: #fff; /* Белый фон для текста */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 20px auto;
 }
 
 section {
@@ -41,6 +49,7 @@ section {
 
 section h2 {
   margin-bottom: 15px;
+  color: #ff6f61; /* Используем цвет заголовка в тон сайта */
 }
 
 form {
@@ -50,25 +59,30 @@ form {
 
 form label {
   margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
 }
 
 form input, form textarea {
   margin-bottom: 15px;
-  padding: 8px;
+  padding: 10px;
   font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 form button {
-  background: #333;
+  background: #ff6f61; /* Яркая кнопка */
   color: #fff;
   border: none;
   padding: 10px;
   font-size: 1em;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 form button:hover {
-  background: #555;
+  background: #e65a50; /* Более темный цвет при наведении */
 }
 
 footer {
